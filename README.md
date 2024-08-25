@@ -1,11 +1,11 @@
 # Vervebridge-Task1
 Task 1 of vervebridge Internship (August 2024) Data Analytics
 
-Project Overview: 
+**Project Overview:** 
 NBA Draft Combine Data Analysis (2009-2017)
 This project involves a comprehensive analysis of NBA Draft Combine data from 2009 to 2017, focusing on the physical attributes and performance metrics of draft prospects. The primary goal is to uncover key trends, relationships, and factors that influence the draft position of players.
 
-Key Metrics:
+**Key Metrics:**
 -Draft Pick
 -Height (No shoes)
 -Height (With Shoes)
@@ -19,8 +19,8 @@ Key Metrics:
 
 Here’s a brief overview of the NBA Draft Combine Data Analysis project:
 
-1. Data Collection: Gathered NBA Draft Combine data from 2009-2017, including physical and athletic measurements of prospects.
-2. Data Cleaning: Handled missing values, ensured data consistency, and converted columns to numeric types.
+1. **Data Collection:** Gathered NBA Draft Combine data from 2009-2017, including physical and athletic measurements of prospects.
+2. **Data Cleaning:** Handled missing values, ensured data consistency, and converted columns to numeric types.
 3. **Exploratory Data Analysis (EDA):**
    - Performed year-wise trend analysis of average physical metrics.
    - Compared physical features of selected vs. non-selected players.
