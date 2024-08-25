@@ -17,7 +17,7 @@ This project involves a comprehensive analysis of NBA Draft Combine data from 20
 -Agility
 -Sprint
 
-Here’s a brief overview of the NBA Draft Combine Data Analysis project:
+**Work Flow:**
 
 1. **Data Collection:** Gathered NBA Draft Combine data from 2009-2017, including physical and athletic measurements of prospects.
 2. **Data Cleaning:** Handled missing values, ensured data consistency, and converted columns to numeric types.
