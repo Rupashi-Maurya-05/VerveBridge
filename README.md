@@ -64,7 +64,69 @@ This project was developed as part of Task 2 for my internship at Vervebridge. T
 3. **Data Visualization**:
    - **Choropleth Maps**: Used to display the distribution of players across the U.S. by state.
    - **Bubble Charts**: Visualized the population-to-player ratio for each state.
-   - **Stacked Bar Charts**: Showed player positions by birth state to identify positional trends in different regions.
-   - **Line Charts**: Illustrated historical trends of player birthplace and success over time.
+  
+Here's a template for your GitHub README file that includes a project overview, key metrics, and workflow for your Power BI dashboard project created during your Vervebridge internship:
 
-   
+---
+
+# Power BI Dashboard for Vervebridge Internship - Task 3
+
+## Project Overview
+
+This project was completed as part of Task 3 of my Data Analyst internship at Vervebridge. The goal of this Power BI dashboard is to provide insightful visualizations that explore the relationships between various attributes in the dataset. The dashboard focuses on analyzing **golden vs. non-golden data points**, **antecedent confidence levels**, and **trusted judgments**, enabling data-driven decision-making and trend analysis.
+
+The dataset includes the following attributes:
+- `_unit_id`: Unique identifier for each unit.
+- `_golden`: Boolean flag indicating whether the data point is golden.
+- `_unit_state`: State of the unit.
+- `_trusted_judgments`: Number of trusted judgments.
+- `_last_judgment_at`: Timestamp of the last judgment.
+- `antecedent`: Antecedent variable.
+- `antecedent:confidence`: Confidence level of the antecedent.
+- `orig_antecedent`: Original antecedent value.
+- `antecedent_gold`: The golden antecedent value.
+
+## Key Metrics
+
+The dashboard highlights several important metrics and trends, including:
+- **Total Golden Data Points**: The count of data points labeled as golden.
+- **Total Non-Golden Data Points**: The count of non-golden data points.
+- **Overall Average Antecedent Confidence**: The average confidence level for all antecedent values.
+- **Average Antecedent Confidence for Golden Data**: The average confidence specifically for golden data points.
+- **Average Antecedent Confidence for Non-Golden Data**: The average confidence for non-golden data points.
+- **Trusted Judgments**: The total number of trusted judgments in the dataset.
+- **Trend Analysis**: Visualization of how antecedent confidence levels change over time.
+
+## Dashboard Features
+
+The Power BI dashboard includes the following visualizations:
+1. **Trend Analysis (Trend Axis)**: A line chart that visualizes changes in average antecedent confidence over time.
+2. **Distribution Insights**:
+   - **Pie Charts**: Show the proportion of golden vs. non-golden data points.
+   - **Bar Charts**: Compare the average confidence levels of golden and non-golden data points.
+3. **Scatter Plot**: Visualizes the relationship between trusted judgments and antecedent confidence.
+4. **Heatmap**: Shows the correlation between different attributes like antecedent confidence and trusted judgments.
+
+## Workflow
+
+The following steps outline the process of building the dashboard:
+
+1. **Data Import**: Imported the dataset into Power BI from CSV format.
+2. **Data Cleaning**: Reviewed and cleaned the dataset for any inconsistencies.
+3. **Measure Calculation**:
+   - Created custom DAX measures to calculate key metrics like `TotalGoldenDataPoints`, `AverageConfidenceGolden`, and `OverallAverageConfidence`.
+4. **Visualization**: Built various visualizations to represent key insights, including trend lines, pie charts, and bar charts.
+5. **Dashboard Design**: Organized visualizations into a clean, user-friendly dashboard for easy exploration.
+6. **Analysis**: Performed analysis of the visualized data to identify patterns, trends, and anomalies in the dataset.
+
+## Tools & Technologies Used
+
+- **Power BI**: Primary tool for data visualization and dashboard creation.
+- **DAX (Data Analysis Expressions)**: Used for creating custom measures and calculations.
+- **Dataset**: Provided by Vervebridge, focusing on golden and non-golden data points, antecedent confidence, and trusted judgments.
+
+## Conclusion
+
+This project provided valuable experience in data analysis and dashboard creation, enhancing my skills in Power BI and DAX. The dashboard offers a comprehensive view of the dataset, enabling users to understand trends and relationships between key metrics.
+
+Feel free to explore the dashboard and reach out with any feedback or questions!
